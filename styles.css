@@ -1,0 +1,86 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.hero {
+    background-image : url("images/Chennai.jpg");
+    background-size: cover;
+    padding: 100px 0 30px 0;
+    height: 100vh;
+    display: block;
+}
+
+#visit {
+    color: #1a1a1a;
+    display: inline;  
+}
+
+.activities {
+    background-color: #F1FAEE;
+    
+}
+
+.activity-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 60px;
+    flex-wrap: nowrap;
+   
+}
+
+#abt-activities {
+    padding: 10px;
+    margin: 0;
+}
+
+
+
+.activity-each{
+    width: 30%;
+    text-align: center;
+}
+
+.activity-img {
+    width: 150px;
+    height: 150px;          
+    object-fit: cover;       
+    border-radius: 50%;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom: 6px solid #d8cefe;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
